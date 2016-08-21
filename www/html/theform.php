@@ -86,10 +86,10 @@ function checkdatum($datum){
  */
 function checkbericht($bericht){
     if(is_string($bericht)&&$bericht!=''){//not empty string
-        //return true;
+        
         return array('status'=>true,'errormessage'=>'');
     }else {
-        //return false;
+        
         return array('status'=>false,'errormessage'=>'Bericht mag niet leeg zijn');
     }
 }
