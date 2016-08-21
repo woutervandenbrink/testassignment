@@ -6,7 +6,7 @@
  * Time: 13:45
  */
 if ($dbsettings = parse_ini_file(__DIR__ ."/dbsettings.ini")) {
-    //echo "dbcontact gelegd <br />\n<br />\n";
+    
     $mysqli = new mysqli($dbsettings['dbhost'], $dbsettings['dbuser'], $dbsettings['dbpasswd'], $dbsettings['dbname']);
     $mysqli->query("SET NAMES 'utf8'");
     if (!$mysqli->set_charset('utf8')) {
