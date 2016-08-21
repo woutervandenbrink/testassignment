@@ -64,8 +64,6 @@ function checkdatum($datum){
                 //check minutes
                 !((int)$regsmatchs[5]>=0&& (int)$regsmatchs[5]<=59&& ctype_digit($regsmatchs[5]))
             ){
-                //echo "echte minuten, echte uren, echte datum ";
-                //return true;
                 $errormessage.=' Minuten van 00 t/m 59 - ';
 
             }
