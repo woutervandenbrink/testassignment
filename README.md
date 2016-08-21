@@ -16,7 +16,9 @@ Het moet in PHP gedaan worden. Verder staat het vrij om eigen code die reeds bes
 
 
 
-relevant links
+------------------------------------------------
+
+code in ubuntu 16.04 als guest in virtualBox op windows 10,  met mysql, apache2 en php 7.0nogwat getest. 
 
 (Omdat me niet helemaal helder is of velden dingen zijn in het webformulier, of dingen in een tabel in de mysql-database, 
 heb ik in het formulier ook het veld datum aangebracht, en in de php de daar bijhorende validatie verzorgd. )
